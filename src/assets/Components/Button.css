@@ -1,0 +1,23 @@
+button{
+    font-size: 1.2em;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    padding-top: .1em;
+    margin: 2em 4em;
+}
+
+button:hover{
+    cursor: pointer;
+    color: rgba(0,0,0,.5);
+    transition: ease-in-out .3s;
+    transform: scale(1.2);
+}
+
+@media (max-width: 728px){
+    button{
+        font-size: .8em;
+        background-color: transparent;
+    }
+}
